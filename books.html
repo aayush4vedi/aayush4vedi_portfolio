@@ -1,0 +1,190 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>aayush4vedi.books</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script>
+        //TOOD: insert google analytics funtion here
+      </script>
+   </head>
+   <body>
+      <div class="row">
+         <div class="col-xs-2 col-md-2 no-margin">
+            <header class="site-header" role="banner">
+               <div class="wrapper fixed">
+                  <div class="menu-icon hide-desktop">
+                     <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v2H0V0zm0 7h24v2H0V7zm0 7h24v2H0v-2z" fill="#2F2F2F" fill-rule="evenodd" />
+                     </svg>
+                  </div>
+                  <nav id="nav" class="site-nav footer-icons">
+                     <div id="menu" class="hide">
+                        <div class="menu hide2">
+                           <span class="close-icon hide-desktop">
+                              <svg width="23" height="22" viewBox="0 0 23 22" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M11.5 9.586L1.954.04.54 1.454 10.086 11 .54 20.546l1.414 1.414 9.546-9.546 9.546 9.546 1.414-1.414L12.914 11l9.546-9.546L21.046.04 11.5 9.586z" fill="#FFF" fill-rule="evenodd" />
+                              </svg>
+                           </span>
+                           <div class="menu-list">
+                              <a href="index.html">Home</a>
+                              <a href="about.html">About</a>
+                              <a href="blog.html">Blog</a>
+                              <a href="books.html" class='active'>Books</a>
+                              <a href="resume.html">Résumé</a>
+                           </div>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+            </header>
+            <div class="footer-icons">
+               <div id="msg" class="hidden">
+                  <div class="curtain fullScreen">
+                     <div class="table fullScreen">
+                        <div class="msgContainer fullScreen">
+                           <div id="msgContent"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer-icons">
+                  <footer class="site-footer footer-social-icons">
+                    <ul class="social-icons">
+                      <li><a title="Mail Me" href="mailto:4vedi.aayush@gmail.com" class="social-icon"> <i class="fa fa-envelope fa-lg"></i></a></li>
+                      <li><a title="Gitub" href="https://github.com/aayush4vedi" class="social-icon"> <i class="fa fa-github fa-lg"></i></a></li>
+                      <li><a title="Twitter" href="https://twitter.com/aayush4vedi" class="social-icon"> <i class="fa fa-twitter fa-lg"></i></a></li>
+                      <li><a title="IndieHackers" href="https://www.indiehackers.com/Parivraajak" class="social-icon"><strong>IH</strong></a></li>
+                      <li><a title="Linkedin" href="https://www.linkedin.com/in/aayush-chaturvedi-bb7143116/" class="social-icon"> <i class="fa fa-linkedin fa-lg"></i></a></li>
+                      <li><a title="Facebook" href="https://www.facebook.com/4vedi.aayush" class="social-icon"> <i class="fa fa-facebook fa-lg"></i></a></li>
+                     </ul>
+                  </footer>
+               </div>
+               <script type="text/javascript">
+                  $('.menu-icon').on('click', function(){
+                    $('#nav').removeClass();
+                    $('#menu').removeClass().addClass('fadeIn animated');
+                    $('.menu').removeClass('hide2');
+                  });
+                  $('.close-icon').on('click', function(){
+                    $('#menu').removeClass().addClass('fadeOut animated').delay(300).queue(function(next){
+                      $('.menu').addClass('hide2');
+                      next();
+                    });
+                  });
+               </script>
+            </div>
+         </div>
+         <div class="col-xs-10 col-md-10 no-margin">
+            <main class="page-content" aria-label="Content">
+               <div class="wrapper">
+                  <article class="post">
+                     <header class="post-header">
+                        <h1 class="post-title">Legere Ergo Sum</h1>
+                     </header>
+                     <div class="post-content">
+                        <p>This is a somewhat continuously updated list of books I’ve read. The ones with ✨ are my all time favourites.<br>  <span class="book_comment"> <b>//PS</b>: I'm opinionated about reading hard copies of books & believe that soft copies are a compromise</span> <br> <span class="book_comment"><b>//PPS</b>: Self-Help literature is a scam!</span><p>
+                     </div>
+                  </article>
+                  <br>
+                  <section class="books">
+                     <h1 class="section-title">2020</h1>
+                     <h4>Fiction</h4>
+                     <ul>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Sphere - by Michael Crichton</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Krishna Key - by Ashwin Sanghi</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Lord of the flies- by WIlliam Golding</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Flatland: A Romance of Many Dimensions - by Edwin Abbott Abbott <span class="book_comment"> // current reading count = 2</span></a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Under the Dome  -  Stephan King</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Harry Potter Series - by J.K. Rowling ✨✨ <span class="book_comment"> // current reading count = 4; thanks COVID-19 for too much free time</span></a></li>
+                     </ul>
+                     <h4>Stranger than fiction</h4>
+                        <ul>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Astrophysics for People in a Hurry - by Neil deGrasse Tyson</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Road to Reality: A Complete Guide to the Laws of the Universe  - by Roger Penrose</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">India After Gandhi: The History of the World's Largest Democracy - by Ramachandra Guha</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">21 Lessons for the 21st Century - by Yuval Noah Harari ✨✨</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Sophie's World  - by Jostein Gaarder ✨✨</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Stranger - by Albert Camus</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Dropping Ashes on the Buddha: The Teachings of Zen Master Seung Sahn - by Stephen Mitchell</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Why I am a Hindu  -  by Shashi Tharoor</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The God Delusion - by Richard Dawkins ✨</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Philosophers Toolkit - by Julian Baggini</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Story of Philosophy - by Will Durant</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Plato: Five Dialogues - by Plato</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Zen and the Art of Motorcycle Maintenance - by Robert M. Pirsig</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Reasons and Persons - Derek Parfit</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Let's Go!  -  by Alex Edwards</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Mom Test - by Rob Fitzpatrick</a></li>
+                        </ul>
+                     <h1 class="section-title">2019</h1>
+                     <h4>Fiction</h4>
+                     <ul>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Little Prince - by Antoine de Saint-Exupéry ✨✨✨<span class="book_comment"> //what is essential is invisible to the eye</span></a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Siddhartha - by Hermann Hesse</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Looking for Alaska  - by John Green</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Catch-22 - by Joseph Heller</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Shiva Trilogy - by Amish Tripathi</a></li>
+                     </ul>
+                     <h4>Non-fiction</h4>
+                     <ul>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Tao of Pooh, The Te of Piglet - by  by Benjamin Hoff ✨✨✨<a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Sapiens, Homo Deus - by Yuval Noah Harari ✨✨</a></li>
+                           <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Zero to One: Notes on Startups - by Peter Thiel</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">What If? Serious Scientific Answers to Absurd Hypothetical Questions - by Randall Munroe ✨</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Subtle Art of Not Giving a F*ck - by Mark Manson</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Art of War - Sun Tzu </a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Man's Search for Meaning - by Viktor E. Frankl ✨</a></li>
+                     </ul>
+                     <h1 class="section-title" style="text-transform: none;">2018 & before</h1>
+                     <h4>Non-fiction</h4>
+                     <ul>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Wings of Fire - by A.P.J. Abdul Kalam ✨</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Prophet - by Kahlil Gibran</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Surely You're Joking, Mr. Feynman!, What Do You Care What Other People Think? - by Richard P. Feynman ✨✨✨✨<span class="book_comment"> //companion for life</span></a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Bhagavadgita, The Principal Upanishads - by Sarvepalli Radhakrishnan ✨✨</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Ashtavakra Gita</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Rigveda  <span class="book_comment"> //technically this makes me 1vedi</span></a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Man Who Knew Infinity - by Robert Kanigel</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Introduction to Algorithms  - by T.H. Cormen</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Rich Dad, Poor Dad - by Robert T. Kiyosaki</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">A Brief History of Time  - by Stephan Hawking</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Indian War of Independence - by Vinayak Damodar Savarkar</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">My Experiments with Truth - M.K. Gandhi</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Benjamin Franklin - by Walter Isaacson</a><span class="book_comment"> //polyphasic sleep is a fun experiment</span></li>
+                     </ul>
+                     <h4>Fiction</h4>
+                     <ul>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Hitchhiker's Guide to the Galaxy series - by Douglas Adams  ✨✨<span class="book_comment"> // "The ships hung in the sky in much the same way that bricks don't" - who the hell thinks like this! </span></a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Alchemist, Veronika Decides to Die, Brida, The Witch of Portobello - all by Paulo Coelho ✨✨</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Malgudi Days  - by R.K. Narayan</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Diary of a Young Girl  - by Anne Frank</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">All works of Jules Verne</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">And Then There Were None -  by Agatha Christie</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Train to Pakistan - by Khushwant Singh ✨✨</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The 3 Mistakes of My Life, Five Point Someone, Revolution 2020  - by Chetan Bhagat</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Ram Series #1,#2 - by Amish Tripathi</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Da Vinci Code, The Lost Symbol, Digital Fortress, Deception Point, Angels & Demons, Origin - by Dan Brown <span class="book_comment"> //my go-to guilty pleasure books </span></a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Jurassic Park, The Andromeda Strain, Airframe, Micro - by Michael Crichton</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">11/22/63 - by Stephen King ✨✨</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Old Man and the Sea - by Ernest Hemingway</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Kite Runner - Khaled Hosseini</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">The Fault in Our Stars  - by John Green ✨<span class="book_comment"> //wooing helps much, TIA ;) </span></a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Foundation series - by Issac Asimov ✨</a></li>
+                        <li class="book_title"><a href="https://www.goodreads.com/user/show/102245368-aayush-chaturvedi">Pareeksha Guru - Srinivas Das<span class="book_comment"> //the first Hindi novel ever written </span></a></li>
+                     </ul>
+                  </section>
+                  <hr />
+               </div>
+            </main>
+         </div>
+      </div>
+   </body>
+</html>
+
