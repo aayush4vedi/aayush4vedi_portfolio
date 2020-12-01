@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>aayush4vedi.blog.PortfolioSetup</title>
+      <link rel="stylesheet" href="../styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZ0WSJCWXW"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RZ0WSJCWXW');
+      </script>
+   </head>
+   <body>
+      <div class="row">
+         <div class="col-xs-2 col-md-2 no-margin">
+            <header class="site-header" role="banner">
+               <div class="wrapper fixed">
+                  <div class="menu-icon hide-desktop">
+                     <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v2H0V0zm0 7h24v2H0V7zm0 7h24v2H0v-2z" fill="#2F2F2F" fill-rule="evenodd" />
+                     </svg>
+                  </div>
+                  <nav id="nav" class="site-nav footer-icons">
+                     <div id="menu" class="hide">
+                        <div class="menu hide2">
+                           <span class="close-icon hide-desktop">
+                              <svg width="23" height="22" viewBox="0 0 23 22" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M11.5 9.586L1.954.04.54 1.454 10.086 11 .54 20.546l1.414 1.414 9.546-9.546 9.546 9.546 1.414-1.414L12.914 11l9.546-9.546L21.046.04 11.5 9.586z" fill="#FFF" fill-rule="evenodd" />
+                              </svg>
+                           </span>
+                           <div class="menu-list">
+                              <a href="../index.html">Home</a>
+                              <a href="../about.html">About</a>
+                              <a href="../blog.html" class='active'>Blog/ </a>
+                              <a href="../books.html">Books</a>
+                              <a href="../resume.html">Résumé</a>
+                           </div>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+            </header>
+            <div class="footer-icons">
+               <div id="msg" class="hidden">
+                  <div class="curtain fullScreen">
+                     <div class="table fullScreen">
+                        <div class="msgContainer fullScreen">
+                           <div id="msgContent"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer-icons">
+                  <footer class="site-footer footer-social-icons">
+                    <ul class="social-icons">
+                      <li><a title="Mail Me" hhref="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=4vedi.aayush@gmail.com" target="_blank" class="social-icon"> <i class="fa fa-envelope fa-lg"></i></a></li>
+                      <li><a title="Gitub" href="https://github.com/aayush4vedi" class="social-icon"> <i class="fa fa-github fa-lg"></i></a></li>
+                      <li><a title="Twitter" href="https://twitter.com/aayush4vedi" class="social-icon"> <i class="fa fa-twitter fa-lg"></i></a></li>
+                      <li><a title="IndieHackers" href="https://www.indiehackers.com/Parivraajak" class="social-icon"><strong>IH</strong></a></li>
+                      <li><a title="Linkedin" href="https://www.linkedin.com/in/aayush-chaturvedi-bb7143116/" class="social-icon"> <i class="fa fa-linkedin fa-lg"></i></a></li>
+                      <li><a title="Facebook" href="https://www.facebook.com/4vedi.aayush" class="social-icon"> <i class="fa fa-facebook fa-lg"></i></a></li>
+                     </ul>
+                  </footer>
+               </div>
+               <script type="text/javascript">
+                  $('.menu-icon').on('click', function(){
+                    $('#nav').removeClass();
+                    $('#menu').removeClass().addClass('fadeIn animated');
+                    $('.menu').removeClass('hide2');
+                  });
+                  $('.close-icon').on('click', function(){
+                    $('#menu').removeClass().addClass('fadeOut animated').delay(300).queue(function(next){
+                      $('.menu').addClass('hide2');
+                      next();
+                    });
+                  });
+               </script>
+            </div>
+         </div>
+         <div class="col-xs-10 col-md-10 no-margin">
+            <main class="page-content" aria-label="Content">
+               <div class="wrapper">
+                  <article class="post">
+                     <header class="post-header">
+                        <h1 class="post-title" itemprop="name headline">How to Build & Launch your Portfolio Site</h1>
+                        <p class="post-meta"><time datetime="2018-10-25T19:56:54+00:00" itemprop="datePublished"> - by Aayush Chaturvedi, 1 December 2020</time>  </p>
+                    </header>
+                    <div class="post-content" itemprop="articleBody">
+                    <class class="attention-grabber"> Why should you have your portfolio? Because why not!</class>
+                    <br><br><br>
+                    <p> 
+                     Portfolios are awesome! Is there any easier way for us developers to convert our personalities into a bunch of HTML, CSS & Javascript? You can write blogs, rant about anything, give your projects a professional showcase. And not to forget the optimization of your online presence - which is golden for any job-seeker, freelancer, or an <a href="https://www.indiehackers.com/start">indiehacker</a>.
+                     <br><br>
+                     This piece is but a humble guide on how to set up your portfolio with a minimum amount of work. This is how I did it, and anyone who wants the same & has basic HTML & CSS skills, be my guest for the ride. 🚀
+                    </p>
+
+                    <h2>Step1: Building A Website</h2>
+                  
+                    <h4> Option A: Code up your static site</h4>
+                        <p>
+                            The easiest way to get started is to use a static site - written in plain HTML, CSS & minimal JS/jquery. You can use tweak <a href="https://www.free-css.com/template-categories/portfolio">some of the</a> freely available templates. 
+                            Or if you really want to show off your skills - you can create something original & truly yours.
+                           <br><br>For layouts & design inspirations, you can also look around the personal websites of amazing people out there in the community. The idea is to keep the website simple & aesthetic - with minimal effort. 
+                           <br> <a href="https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=ask%20pesonal%20website&sort=byPopularity&type=story"> <code style="color: rgb(0, 153, 255);"> Show your personal site/blog</code> </a> keeps on popping up on Hackernews frequently and can be a great source of inspirations.<br><br> Link: <a href="https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=ask%20pesonal%20website&sort=byPopularity&type=story">frequent HN queries on portfolio showoffs</a>
+                     
+                    <h4> Option B: Use static site generators</h4>
+                        <p>
+                        If you don't want to go through the hassle of coding up entire HTML pages, the other choice is to use the static site generators like <a href="https://gohugo.io/"> <strong> Hugo</strong></a>, <a href="https://jekyllrb.com/"> <strong> Jekyll</strong></a>, or <a href="https://www.gatsbyjs.com/"> <strong> Gatsby</strong></a>. They have a simple learning curve & amazing documentation. And provide you a wide variety of themes to be customized accordingly.
+                        <br>
+                        <blockquote>
+                           <p>
+                              Personal Note: I built my first site with hugo - up and running in just a few minutes. But dropped it later, as the confinement of themes just didn't felt right to me.
+                           </p>
+                        </blockquote>
+                     </p>
+                     
+                     Once you're satisfied with your website design, it's time to go live!
+
+                    <h2>Step2: Deploying the Site</h2>
+                        <p>
+                           If you've used any back-end frameworks while building the website (which I haven't) you can deploy the server with <a href="https://devcenter.heroku.com/articles/git">Heroku</a>,  <a href="https://aws.amazon.com/">AWS</a>,  <a href="https://cloud.google.com/">Google Cloud</a> for practically free.
+                           <br>But if it's just html & css; <a href="https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/"><strong>Netlify</strong></a> , <a href="https://www.pluralsight.com/guides/how-to-host-your-static-webpages-on-github-pages"><strong>Github Pages</strong></a> or <a href="https://medium.com/@aleemuddin13/how-to-host-static-website-on-firebase-hosting-for-free-9de8917bebf2"><strong>Firebase</strong></a> are the easiest way to go. I've used all three of them in past, and it's just a matter of minutes when your site will be alive using them.
+                           <br><br> Though you can choose your domain name here ( if available ofc ), but the only compromise is the custom suffix you're gonna get in URL. The next section is about avoiding that.
+                        </p>
+
+                    <h2>(Optional) Buying A Domain Name</h2>
+                        <p>
+                           Well, there's nothing beats having a <kbd>.com</kbd> behind your name, does it? 😎
+                           <br><br>
+                           Even if you're not lucky (with a common name), you can easily get your name's domain at dirt-cheap prices (as low as <strong>$10-12</strong>). If <kbd>yourname.com</kbd> is taken, the <strong>Beast Search Mode</strong> on <a href="https://www.namecheap.com/">namecheap.com</a> (dont go on the name, it's really cool) can suggest you the next best available options in similar price range.
+                           <p>There's been a lot of debate on using your real name/nickname vs pseudo-name as your domain name. In my opinion, it's best to go with your original name, as it's ones first identity & people are more likely to search you by your name, unless your pseudo-name is more famous online( ahem...PewDiePie).</p>
+
+                        </p>
+                        <br>
+                        So now your portfolio is up & shining, it's done right? But wait, you type your name in google search & your portfolio isn't even on the last search of last page. All you can see is your (and namesakes) profiles on other platforms & bunch of things you've signed into few years back.<br><br> <blockquote>What the hell happened? What was the point of a tree falling in the forest if no one's there to listen to it's sound!</blockquote> 
+                        
+                    <h2>Step3: Making Your Site Visible to the World</h2>
+                        <p>
+                           Here are few well-proven tips to increase your SEO:
+                        <ul>
+                           <li>Google search works on backlinks.Means, the more branded sources pointing to your site, the higher is it's rank.So, add your amazing site in all of your social media profiles.</li>
+                           <li>Also content is the key here.So you should keep on writing more content to your site - like blogs/videos/photographs. And post them on the platforms with a wider audience, which point to your site- to let google's crawler know that your site exists.</li>
+                           <li>Another tip: Give your website url as meta-content in every image or file. <br>Eg: <kbd> &lt;img src="img.jpg" alt="www.aayush4vedi.com"&gt;</kbd>  <br><br> ( ͡° ͜ʖ ͡°)
+                        </ul>
+                        <br>
+                     </p>
+                     Keep doing this and let's hope you will see your site on the top google search result in few weeks.
+
+                    <hr />
+                    <br>
+                    <p> <a href="../blog.html">Continue reading more musings >> </a></p>
+                  </article>
+               </div>
+            </main>
+         </div>
+      </div>
+   </body>
+</html>

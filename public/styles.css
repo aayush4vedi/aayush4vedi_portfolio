@@ -1511,7 +1511,7 @@ ul li,ol li{
     margin:0
 }
 article.post ul,article.post ol{
-    font-family:alda,Georgia,serif
+    /* font-family:alda,Georgia,serif */
 }
 nav{
     display:block
@@ -1525,7 +1525,7 @@ blockquote{
     padding:0 0 0 1.5625rem
 }
 blockquote p{
-    max-width:31rem;
+    max-width:90%;
     font-size:90%
 }
 cite{
@@ -1571,7 +1571,7 @@ td,th{
     display:none
 }
 article p, .book_title{
-    font-family: Georgia,serif;
+    /* font-family: Georgia,serif; */
     font-weight:400;
     font-style:normal;
     -webkit-hyphens:auto;
