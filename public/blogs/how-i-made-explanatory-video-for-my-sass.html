@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>aayush4vedi.blog.PortfolioSetup</title>
+      <link rel="stylesheet" href="../styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZ0WSJCWXW"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RZ0WSJCWXW');
+      </script>
+   </head>
+   <body>
+      <div class="row">
+         <div class="col-xs-2 col-md-2 no-margin">
+            <header class="site-header" role="banner">
+               <div class="wrapper fixed">
+                  <div class="menu-icon hide-desktop">
+                     <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v2H0V0zm0 7h24v2H0V7zm0 7h24v2H0v-2z" fill="#2F2F2F" fill-rule="evenodd" />
+                     </svg>
+                  </div>
+                  <nav id="nav" class="site-nav footer-icons">
+                     <div id="menu" class="hide">
+                        <div class="menu hide2">
+                           <span class="close-icon hide-desktop">
+                              <svg width="23" height="22" viewBox="0 0 23 22" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M11.5 9.586L1.954.04.54 1.454 10.086 11 .54 20.546l1.414 1.414 9.546-9.546 9.546 9.546 1.414-1.414L12.914 11l9.546-9.546L21.046.04 11.5 9.586z" fill="#FFF" fill-rule="evenodd" />
+                              </svg>
+                           </span>
+                           <div class="menu-list">
+                              <a href="../index.html">Home</a>
+                              <a href="../about.html">About</a>
+                              <a href="../blog.html" class='active'>Blog/ </a>
+                              <a href="../books.html">Books</a>
+                              <a href="../resume.html">Résumé</a>
+                           </div>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+            </header>
+            <div class="footer-icons">
+               <div id="msg" class="hidden">
+                  <div class="curtain fullScreen">
+                     <div class="table fullScreen">
+                        <div class="msgContainer fullScreen">
+                           <div id="msgContent"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer-icons">
+                  <footer class="site-footer footer-social-icons">
+                    <ul class="social-icons">
+                      <li><a title="Mail Me" hhref="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=4vedi.aayush@gmail.com" target="_blank" class="social-icon"> <i class="fa fa-envelope fa-lg"></i></a></li>
+                      <li><a title="Gitub" href="https://github.com/aayush4vedi" class="social-icon"> <i class="fa fa-github fa-lg"></i></a></li>
+                      <li><a title="Twitter" href="https://twitter.com/aayush4vedi" class="social-icon"> <i class="fa fa-twitter fa-lg"></i></a></li>
+                      <li><a title="IndieHackers" href="https://www.indiehackers.com/Parivraajak" class="social-icon"><strong>IH</strong></a></li>
+                      <li><a title="Linkedin" href="https://www.linkedin.com/in/aayush-chaturvedi-bb7143116/" class="social-icon"> <i class="fa fa-linkedin fa-lg"></i></a></li>
+                      <li><a title="Facebook" href="https://www.facebook.com/4vedi.aayush" class="social-icon"> <i class="fa fa-facebook fa-lg"></i></a></li>
+                     </ul>
+                  </footer>
+               </div>
+               <script type="text/javascript">
+                  $('.menu-icon').on('click', function(){
+                    $('#nav').removeClass();
+                    $('#menu').removeClass().addClass('fadeIn animated');
+                    $('.menu').removeClass('hide2');
+                  });
+                  $('.close-icon').on('click', function(){
+                    $('#menu').removeClass().addClass('fadeOut animated').delay(300).queue(function(next){
+                      $('.menu').addClass('hide2');
+                      next();
+                    });
+                  });
+               </script>
+            </div>
+         </div>
+         <div class="col-xs-10 col-md-10 no-margin">
+            <main class="page-content" aria-label="Content">
+               <div class="wrapper">
+                  <article class="post">
+                     <header class="post-header">
+                        <h1 class="post-title" itemprop="name headline">How I Made Explanatory Video for my Sass in 16 Hours</h1>
+                        <p class="post-meta"><time datetime="2018-10-25T19:56:54+00:00" itemprop="datePublished"> - by Aayush Chaturvedi, 7 Jan 2021</time>  </p>
+                    </header>
+                    <div class="post-content" itemprop="articleBody">
+                    <class class="attention-grabber"> <strong>tl;dr :</strong>Use DaVinci Resolve 16 with templates & here's my final <a href="https://www.youtube.com/watch?v=5vhtLAU83Uk&feature=youtu.be">video</a></class>
+                    <br><br><br>
+                    <p> 
+                     Being a solopreneur means you've to wear all the hats by yourself - front System Architecture & Software Developer to the Marketing guy.
+                     <br><br>
+                     And that's why I love building Saas.Being a full-time Backend Engineer, there was no chance of me attempting to make a state-of-the-art animated video synced to the beats. Ever!
+                     <br><br>
+                     Now coming to the "How" part in the title, here's how I did(and hopefully it can help you too):
+                    </p>
+
+                    <h2>Explanatory Video Formats</h2>
+                  
+                        <p>
+                        For an explanatory video there are multiple options. Easiest is to sit in front of your camera and speak or record your screen with voiceover.No fancy editors are required for it.
+                        <br><br>
+                        Another widely used template is that of Hand Drawn animations. There are many free/paid tools available for this.
+                        <br><br>
+                        <strong>What I did</strong>: Even though time crunch is there for solopreneurs, but I wanted my video to come out as *cool*(according to the taste developed after hundreds of hours spending on YouTube). So I decided not to go with either of these two
+                        options & do everything from scratch, as simple as possible; but the result should look like as if it's been made by some professional video-editors team.😎
+                        </p>
+
+                    <h2>Which Video Editor to Pick?</h2>
+                        <p>
+                           A few google/Reddit searches will tell you that Adobe AfterEffects is the way to go if you need a video editor to make your video as a function of your imagination.
+                           And all those android/iOS apps out there are only good for video/vlog editing & basic effects.Not here.
+                           <br><br>
+                           I've used AfterEffects once in college(for basic voiceover syncing) & remember it was free to use for students. Currently, they offer just one week trial period with mandatory billing information on signup. I tried with my college email too, but alas freebies have been revoked.
+                           <br>I didn't want to pay for something which I'll rarely use, so started looking for free alternatives and came across <strong>DaVinci Resolve</strong>. It offers the same features as AfterEffects but for free. 
+                           <br>God bless these people!
+                           <br><br>
+                           Just visit their site & hit download for your OS version & you're good to go for the next part.
+                        </p>
+
+                    <h2>Edit & Animate Like Pro(when you're a noob)</h2>
+                        <p>
+                           Making videos like this is making PPT(power-point presentation), <i>only cooler</i>. The easiest way to save time is to use the templates in DaVinci.There are generous sites like (<a href="https://motionarray.com">motionarray.com</a> ) & YouTubers who are giving so free templates for text-effect, transitions & effects.
+                           <br>You need to download them and paste them inside your DaVinci directory(varies as per your OS).
+                           <br><br>Now we need a script. I just jotted down the <strong>'WHAT, WHY & HOW'</strong> of my Saas in bullet points. Just 10-12 frames are good enough for a short Explanatory video.
+                           <br><br>
+                           Next up was the playtime. Make your bullet points into screens & just go wild with your imagination while knitting them together. I played with everything: transitions, eye-popping texts,
+                           sliding text & whatnot.
+                           <br><br>If you've got a demo to attract people to your product, add it in the video with some context. I put mine inside the "Use Cases" section & put text-boxes over it to highlight the case.
+                           Even though, it took me a full night out to crap out a 1.5 min video; once you're into it- no is caffeinating required.
+
+                           <h4>Artwork Needs to Marinate 🎨</h4>
+                           After you're done with the first cut, put it away for some time. 
+                           <br>I opened my laptop the next morning to be able to see that some of my (earlier) favorite effects were not good. This was the time to change hat from VideoMaker to Editor. Cut out the unnecessary & weird parts to give your video the final cut.
+
+                        </p>
+                        <br>
+                        Once you're happy with it, the last step is to add some background music.
+                        
+                    <h2>Adding Music in Sync</h2>
+                        <p>
+                        There are many free trendy audio tracks available online(without a watermark). Download the ones which go with your video's flow & mood.
+                        <br><br>
+                        <i><strong>NOTE</strong> Using someone's audio may lead to copyright-strike on YouTube(but since its easier to download than to learn piano & I'm not planning to earn from my video either, it's fine).</i> 
+                        
+                        <br><br>Load up your tracks into Davinci Resolve & inspect the waveforms to cut out those parts which you want to use.
+                        Syncing video & audio can be a little tricky, but actually, there's no parameter to describe this job as good or bad. So as long as you're happy with it, it's good. Cheers.
+
+                     </p>
+                     
+                     <br><br>
+                     When done, hit that render button & voilà! You're ready to showcase your video to the world.
+
+                     You can see my video on <a href="https://www.eurekea.org/">my Sass's site(<strong>Eurekea</strong>)</a> and <a href="https://www.youtube.com/watch?v=5vhtLAU83Uk&feature=youtu.be">YouTube</a>.
+                     <br><br>Let me know if you're on the same track & I'd love to help.
+                     <br><br><br>Happy Hustling!
+                    <hr />
+                    <br>
+                    <p> <a href="../blog.html">Continue reading more musings >> </a></p>
+                  </article>
+               </div>
+            </main>
+         </div>
+      </div>
+   </body>
+</html>
